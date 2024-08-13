@@ -80,7 +80,8 @@ nav {
 
 @media (max-width: 599px) {
     .nav-menu-list {
-        flex-direction: column;
+        width: 80vw;
+        flex-wrap: wrap;
         gap: 2vh;
     }
 }
