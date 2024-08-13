@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben's Portfolio</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <!-- Import Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-name">
+            <h2>Ben Waldman</h2>
+        </div>
+        <div class="nav-menu">
+            <ul class="nav-menu-list">
+                <li><a href="#Intro" class="nav-link">Introduction</a></li>
+                <li><a href="#About" class="nav-link">About Me</a></li>
+                <li><a href="#Projects" class="nav-link">Projects</a></li>
+                <li><a href="#Contact" class="nav-link">Contact Me</a></li>
+                <li><a href="https://docs.google.com/document/d/1Z5lfTtzxyAUmlj9LR6RGhcyo6GPYiFgzqxDBHJ50SlQ/edit?usp=sharing" target="_blank" class="CV">Download CV</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-button">
+                        <img src="Assets/dark_mode.png" id="theme-icon" class="theme-icon">
+                    </button>
+                    <script src="script.js"></script>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="Intro" id="Intro">
+        <h1>
+            <div class ="intro-typewriter">
+                <script src="js/typewriter.js"></script>
+            </div>
+        </h1>
+        <p>Proficient designer and developer with a dedication to enhancing user experience.</p>
+        <div class="crop-container">
+            <img id="pfp" src="../Portfolio/Assets/picture-of-me.png" width="500">
+        </div>
+    </section>
+    <section class="About" id="About">
+        <button id="scrollButton">Scroll Down</button>
+        <script src="js/script.js"></script>
+        <div class="about-box">
+            <h1>About Me</h1>
+            <p>I love learning new things, telling and writing stories and expressing my creativity in almost every way that I can find. I am fully equipped with the skills and knowledge to make something truly great. I am well versed with a wide variety of design software, ranging from web design, video editing, game development and curating social media content. As a designer, developer and storyteller my goal is to make the best experience possible for my audience and users.</p>
+
+            <a href="https://docs.google.com/document/d/1Z5lfTtzxyAUmlj9LR6RGhcyo6GPYiFgzqxDBHJ50SlQ/edit?usp=sharing" target="_blank">
+                <button id="CVButton">Download CV</button>
+            </a>
+        </div>
+        <ul id="my-apps">
+            <img src="../Portfolio/Assets/AI.png" width="50">
+            <img src="../Portfolio/Assets/PS.png" width="50">
+            <img src="../Portfolio/Assets/AU.png" width="50">
+            <img src="../Portfolio/Assets/LrC.png" width="50">
+            <img src="../Portfolio/Assets/Id.png" width="50">
+            <img src="../Portfolio/Assets/Unity.png" width="50">
+            <img src="../Portfolio/Assets/GM.png" width="50">
+            <img src="../Portfolio/Assets/Csharp.png" width="50">
+            <img src="../Portfolio/Assets/HTML.png" width="50">
+            <img src="../Portfolio/Assets/CSS.png" width="50">
+            <img src="../Portfolio/Assets/JS.png" width="44">
+        </ul>
+    </section>
+    <section class="Projects" id="Projects">
+        <h1 class="projectsTitle">My Projects</h1>
+        <div class="projects-container">
+            <div class="projectBox">
+                <a href="https://ilan-segal.itch.io/path-of-light" target="_blank" class="project-link">
+                    <img src="Assets/path-of-light.png" class="project-image">
+                    <h2>Path of Light</h2>
+                    <p>Path of Light is a Game Maker game that me and two friends made for the Pirate Game Jam 15 hosted by PirateSoftware. The theme was "Shadow and Alchemy" and this is what we came up with. All art assets, many sound assets and plenty of the code were all done by me.</p>
+                </a>
+            </div>
+            <div class="projectBox">
+                <a href="" target="_blank" class="project-link">
+                    <img src="Assets/Posters.png" class="project-image">
+                    <h2>LOTR Poster Concepts</h2>
+                    <p>This was a project I did for class where we made concepts of posters for our favourite movie trilogy. I chose Lord of the Rings, but I'd hope you could tell that without needing to be told. A rule we had was that we could only have 3 colours per poster, which I found was a very interesting restriction.</p>
+                </a>
+            </div>
+            <div class="projectBox">
+                <a href="" target="_blank" class="project-link">
+                    <img src="Assets/Cameo.png" class="project-image">
+                    <h2>Self Cameo</h2>
+                    <p>This is another project I did in school where we had to take a picture of our selves and make a cameo of it. This was made with Adobe Illustrator and I tried to best capture my own features. </p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <h1 class ="contact-title">Contact Me</h1>
+        <div class="contact-container">
+            <img src="Assets/phone_icon.png" alt="Phone Icon" class="contact-icon">
+            <span>(647) 532-1814</span>
+        </div>
+        <div class="contact-container">
+            <img src="Assets/mail_icon.png" alt="Phone Icon" class="contact-icon">
+            <span>benwaldman99@gmail.com</span>
+        </div>
+        <div class="social-container">
+            <a href="https://www.linkedin.com/in/benjamin-waldman-b3181224b/" target="_blank" class="social-button">
+                <img src="Assets/linkedin_logo.png">
+            </a>
+            <a href="https://www.instagram.com/ben.waldman?igsh=cGlteTR0amEwd293" target="_blank" class="social-button">
+                <img src="Assets/ig_logo.png">
+            </a>
+            <a href="https://x.com/ArcaniacTV" target="_blank" class="social-button">
+                <img src="Assets/x_logo.png">
+            </a>
+        </div>
+        <a href="https://docs.google.com/document/d/1Z5lfTtzxyAUmlj9LR6RGhcyo6GPYiFgzqxDBHJ50SlQ/edit?usp=sharing" target="_blank">
+            <button id ="CVButton">Download CV</button>
+        </a>
+    </section>
+</body>
+</html>
